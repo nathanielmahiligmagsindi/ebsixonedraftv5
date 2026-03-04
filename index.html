@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ebSixOne - Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Intro Overlay -->
+    <div class="intro-overlay" id="introOverlay" aria-hidden="false" aria-label="Intro animation">
+      <video class="intro-video" id="introVideo" src="assets/video/intro.mp4" autoplay muted playsinline preload="auto"></video>
+    </div>
+
+    <!-- Top Nav -->
+    <header class="site-header" id="top">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brand-mark" aria-hidden="true">
+            <img class="brand-logo" id="brandLogo" src="assets/image/logo.png" alt="ebSixOne logo" aria-hidden="true" />
+          </span>
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="navLinks" aria-label="Primary">
+          <a class="active" href="#home">HOME</a>
+          <a href="#about">ABOUT</a>
+          <a href="#services">WHAT WE DO</a>
+          <a href="#methods">FEATURES</a>
+          <a href="#gallery">TESTIMONIALS</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+        <a href="#book-demo" class="book-demo-btn">Book a Demo <span class="arrow">&#8594;</span></a>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home" aria-label="Hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <aside class="hero-rail hero-rail--left" aria-label="Sponsors left">
+          <div class="hero-rail__track">
+            <div class="hero-rail__group">
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,2 15.5,9 23,10 17.5,15.5 19,23 12,19.5 5,23 6.5,15.5 1,10 8.5,9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,3 21,21 3,21" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            </div>
+            <div class="hero-rail__group" aria-hidden="true">
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,2 15.5,9 23,10 17.5,15.5 19,23 12,19.5 5,23 6.5,15.5 1,10 8.5,9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,3 21,21 3,21" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            </div>
+          </div>
+        </aside>
+        <aside class="hero-rail hero-rail--right" aria-label="Sponsors right">
+          <div class="hero-rail__track hero-rail__track--reverse">
+            <div class="hero-rail__group">
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,2 15.5,9 23,10 17.5,15.5 19,23 12,19.5 5,23 6.5,15.5 1,10 8.5,9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,3 21,21 3,21" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            </div>
+            <div class="hero-rail__group" aria-hidden="true">
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,2 15.5,9 23,10 17.5,15.5 19,23 12,19.5 5,23 6.5,15.5 1,10 8.5,9" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><polygon points="12,3 21,21 3,21" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+              <div class="hero-sponsor"><svg viewBox="0 0 24 24" width="28" height="28"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            </div>
+          </div>
+        </aside>
+        <div class="container hero-grid hero-grid--small-video">
+          <div class="hero-left hero-left--video">
+            <div class="hero-video-wrap">
+              <video class="hero-video hero-video--small" id="heroVideo" src="assets/video/hero-loop-resized-text.mp4" autoplay muted loop playsinline preload="auto"></video>
+            </div>
+          </div>
+          <div class="hero-right hero-right--content"></div>
+        </div>
+      </section>
+
+      <!-- Slide6 image section -->
+      <section class="section section--slide6" id="times-changing" aria-label="Times are changing">
+        <video class="slide6-img" src="assets/video/times-are-changing-version2.mp4" alt="The times are changing rapidly; what we do today may not exist tomorrow." autoplay muted loop playsinline></video>
+      </section>
+
+      <!-- ============================================================
+           Section: Services — 3×2 card grid with top/bottom border boxes
+           ============================================================ -->
+      <section class="section section--services" id="services">
+        <div>
+
+          <!-- TOP BORDER BOX -->
+          <div class="svc-banner svc-banner--top">
+            <img src="assets/image/The-emergence.png" alt="The emergence of a new technological era has led to a significant divide that we must address." />
+          </div>
+
+          <!-- 3 × 2 card grid -->
+          <div class="services-grid">
+
+            <!-- Card 1 — modal slides from LEFT -->
+            <article class="svc-card" data-modal="modal-1" data-direction="left">
+              <div class="svc-card__img">
+                <img src="assets/image/svc-1.PNG" alt="Industry 4.0 technology visual" />
+              </div>
+              <div class="svc-card__body">
+                <p>
+                  We are in an era of new technology! Business Process Management (BPM) has
+                  existed for over 250 years, stemming from Adam Smith's "division of labour"
+                  concept from 1776. Businesses now need updated tools (Industry 4.0) to meet
+                  current and future demands.
+                </p>
+                <button class="svc-card__btn" aria-haspopup="dialog">Read More</button>
+              </div>
+            </article>
+
+            <!-- Card 2 — modal slides from RIGHT -->
+            <article class="svc-card" data-modal="modal-2" data-direction="right">
+              <div class="svc-card__img">
+                <img src="assets/image/svc-2.PNG" alt="Fill the gap visual" />
+              </div>
+              <div class="svc-card__body">
+                <p>
+                  The New Era of technology has created a Gap! We need to fill the gaps for a
+                  safer future. The business regulations, standards, and policies await your
+                  expertise.
+                </p>
+                <button class="svc-card__btn" aria-haspopup="dialog">Read More</button>
+              </div>
+            </article>
+
+            <!-- Card 3 — modal slides from LEFT -->
+            <article class="svc-card" data-modal="modal-3" data-direction="left">
+              <div class="svc-card__img">
+                <img src="assets/image/svc-3.PNG" alt="Innovative solutions visual" />
+              </div>
+              <div class="svc-card__body">
+                <p>
+                  ebSixOne™ is an innovative BPM system rooted in nature, science, and logic.
+                  It meets current and future business needs by supporting process management,
+                  documentation, knowledge management, and standardisation.
+                </p>
+                <button class="svc-card__btn" aria-haspopup="dialog">Read More</button>
+              </div>
+            </article>
+
+            <!-- Card 4 — modal slides from RIGHT -->
+            <article class="svc-card" data-modal="modal-4" data-direction="right">
+              <div class="svc-card__img">
+                <img src="assets/image/svc-4.PNG" alt="Innovation visual" />
+              </div>
+              <div class="svc-card__body">
+                <p>
+                  A dedicated team has developed innovative ideas that symbolise growth,
+                  education, technology, and creativity, emphasising the importance of BPM for
+                  the era of technology.
+                </p>
+                <button class="svc-card__btn" aria-haspopup="dialog">Read More</button>
+              </div>
+            </article>
+
+            <!-- Card 5 — modal slides from LEFT -->
+            <article class="svc-card" data-modal="modal-5" data-direction="left">
+              <div class="svc-card__img">
+                <img src="assets/image/svc-5.PNG" alt="Creative idea visual" />
+              </div>
+              <div class="svc-card__body">
+                <p>
+                  We are excited to develop a nature-inspired approach to Business Process
+                  Management (BPM) that meets your needs in today's fast-evolving technological
+                  landscape.
+                </p>
+                <button class="svc-card__btn" aria-haspopup="dialog">Read More</button>
+              </div>
+            </article>
+
+            <!-- Card 6 — modal slides from RIGHT -->
+            <article class="svc-card" data-modal="modal-6" data-direction="right">
+              <div class="svc-card__img">
+                <img src="assets/image/svc-6.PNG" alt="How do we achieve visual" />
+              </div>
+              <div class="svc-card__body">
+                <p>
+                  At ebSixOne™, we are determined to turn this idea into a reality.
+                  'LET'S WORK TOGETHER,' It is the power of collective effort that turns an
+                  idea into a reality and towards shared goals.
+                </p>
+                <button class="svc-card__btn" aria-haspopup="dialog">Read More</button>
+              </div>
+            </article>
+
+          </div><!-- /.services-grid -->
+
+          <!-- BOTTOM BORDER BOX -->
+          <div class="svc-banner svc-banner--bottom">
+            <img src="assets/image/Business-processes.png" alt="Business processes are essential to the functioning of organisations; they are the heartbeat that keeps everything running smoothly." />
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ============================================================
+           Modals (one per card)
+           data-direction on the card controls which side it enters from
+           ============================================================ -->
+
+      <!-- Modal 1 -->
+      <div class="svc-modal" id="modal-1" role="dialog" aria-modal="true" aria-label="Card 1 details" hidden>
+        <div class="svc-modal__panel svc-modal__panel--left">
+          <button class="svc-modal__close" aria-label="Close">&times;</button>
+          <div class="svc-modal__img">
+            <img src="assets/image/svc-1.PNG" alt="" />
+          </div>
+          <div class="svc-modal__body">
+            <h3>Industry 4.0 &amp; BPM</h3><!-- Replace title -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Etiam dolor ex, sodales vitae rhoncus sollicitudin, 
+              ullamcorper nec tellus. Cras sit amet orci placerat nisl luctus laoreet ac ut ligula. 
+              Proin nec lorem ante. Integer vitae viverra orci. 
+              Integer quis erat vitae turpis rutrum commodo nec dapibus sem. 
+              Cras maximus tincidunt nisl, ut sodales urna porttitor a. 
+              Sed aliquet augue eget auctor dapibus. Praesent porta ante in velit porttitor tempor. 
+              Etiam interdum ultricies ex ut porta. Ut ac blandit lectus. 
+              Integer sagittis ut lorem sed sodales. 
+              Proin vestibulum massa sit amet turpis finibus rhoncus. Nulla facilisi. 
+              Sed rhoncus, justo sit amet porttitor vehicula, odio mauris interdum neque, 
+              vel mollis turpis lorem sit amet enim.
+              <!-- Replace with full modal content -->
+            </p>
+          </div>
+        </div>
+        <div class="svc-modal__backdrop"></div>
+      </div>
+
+      <!-- Modal 2 -->
+      <div class="svc-modal" id="modal-2" role="dialog" aria-modal="true" aria-label="Card 2 details" hidden>
+        <div class="svc-modal__panel svc-modal__panel--right">
+          <button class="svc-modal__close" aria-label="Close">&times;</button>
+          <div class="svc-modal__img">
+            <img src="assets/image/svc-2.PNG" alt="" />
+          </div>
+          <div class="svc-modal__body">
+            <h3>Fill the Gap</h3><!-- Replace title -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Etiam dolor ex, sodales vitae rhoncus sollicitudin, 
+              ullamcorper nec tellus. Cras sit amet orci placerat nisl luctus laoreet ac ut ligula. 
+              Proin nec lorem ante. Integer vitae viverra orci. 
+              Integer quis erat vitae turpis rutrum commodo nec dapibus sem. 
+              Cras maximus tincidunt nisl, ut sodales urna porttitor a. 
+              Sed aliquet augue eget auctor dapibus. Praesent porta ante in velit porttitor tempor. 
+              Etiam interdum ultricies ex ut porta. Ut ac blandit lectus. 
+              Integer sagittis ut lorem sed sodales. 
+              Proin vestibulum massa sit amet turpis finibus rhoncus. Nulla facilisi. 
+              Sed rhoncus, justo sit amet porttitor vehicula, odio mauris interdum neque, 
+              vel mollis turpis lorem sit amet enim.
+              <!-- Replace with full modal content -->
+            </p>
+          </div>
+        </div>
+        <div class="svc-modal__backdrop"></div>
+      </div>
+
+      <!-- Modal 3 -->
+      <div class="svc-modal" id="modal-3" role="dialog" aria-modal="true" aria-label="Card 3 details" hidden>
+        <div class="svc-modal__panel svc-modal__panel--left">
+          <button class="svc-modal__close" aria-label="Close">&times;</button>
+          <div class="svc-modal__img">
+            <img src="assets/image/svc-3.PNG" alt="" />
+          </div>
+          <div class="svc-modal__body">
+            <h3>Innovative BPM System</h3><!-- Replace title -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Etiam dolor ex, sodales vitae rhoncus sollicitudin, 
+              ullamcorper nec tellus. Cras sit amet orci placerat nisl luctus laoreet ac ut ligula. 
+              Proin nec lorem ante. Integer vitae viverra orci. 
+              Integer quis erat vitae turpis rutrum commodo nec dapibus sem. 
+              Cras maximus tincidunt nisl, ut sodales urna porttitor a. 
+              Sed aliquet augue eget auctor dapibus. Praesent porta ante in velit porttitor tempor. 
+              Etiam interdum ultricies ex ut porta. Ut ac blandit lectus. 
+              Integer sagittis ut lorem sed sodales. 
+              Proin vestibulum massa sit amet turpis finibus rhoncus. Nulla facilisi. 
+              Sed rhoncus, justo sit amet porttitor vehicula, odio mauris interdum neque, 
+              vel mollis turpis lorem sit amet enim.
+              <!-- Replace with full modal content -->
+            </p>
+          </div>
+        </div>
+        <div class="svc-modal__backdrop"></div>
+      </div>
+
+      <!-- Modal 4 -->
+      <div class="svc-modal" id="modal-4" role="dialog" aria-modal="true" aria-label="Card 4 details" hidden>
+        <div class="svc-modal__panel svc-modal__panel--right">
+          <button class="svc-modal__close" aria-label="Close">&times;</button>
+          <div class="svc-modal__img">
+            <img src="assets/image/svc-4.PNG" alt="" />
+          </div>
+          <div class="svc-modal__body">
+            <h3>Innovation &amp; Creativity</h3><!-- Replace title -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Etiam dolor ex, sodales vitae rhoncus sollicitudin, 
+              ullamcorper nec tellus. Cras sit amet orci placerat nisl luctus laoreet ac ut ligula. 
+              Proin nec lorem ante. Integer vitae viverra orci. 
+              Integer quis erat vitae turpis rutrum commodo nec dapibus sem. 
+              Cras maximus tincidunt nisl, ut sodales urna porttitor a. 
+              Sed aliquet augue eget auctor dapibus. Praesent porta ante in velit porttitor tempor. 
+              Etiam interdum ultricies ex ut porta. Ut ac blandit lectus. 
+              Integer sagittis ut lorem sed sodales. 
+              Proin vestibulum massa sit amet turpis finibus rhoncus. Nulla facilisi. 
+              Sed rhoncus, justo sit amet porttitor vehicula, odio mauris interdum neque, 
+              vel mollis turpis lorem sit amet enim.
+              <!-- Replace with full modal content -->
+            </p>
+          </div>
+        </div>
+        <div class="svc-modal__backdrop"></div>
+      </div>
+
+      <!-- Modal 5 -->
+      <div class="svc-modal" id="modal-5" role="dialog" aria-modal="true" aria-label="Card 5 details" hidden>
+        <div class="svc-modal__panel svc-modal__panel--left">
+          <button class="svc-modal__close" aria-label="Close">&times;</button>
+          <div class="svc-modal__img">
+            <img src="assets/image/svc-5.PNG" alt="" />
+          </div>
+          <div class="svc-modal__body">
+            <h3>Nature-Inspired BPM</h3><!-- Replace title -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Etiam dolor ex, sodales vitae rhoncus sollicitudin, 
+              ullamcorper nec tellus. Cras sit amet orci placerat nisl luctus laoreet ac ut ligula. 
+              Proin nec lorem ante. Integer vitae viverra orci. 
+              Integer quis erat vitae turpis rutrum commodo nec dapibus sem. 
+              Cras maximus tincidunt nisl, ut sodales urna porttitor a. 
+              Sed aliquet augue eget auctor dapibus. Praesent porta ante in velit porttitor tempor. 
+              Etiam interdum ultricies ex ut porta. Ut ac blandit lectus. 
+              Integer sagittis ut lorem sed sodales. 
+              Proin vestibulum massa sit amet turpis finibus rhoncus. Nulla facilisi. 
+              Sed rhoncus, justo sit amet porttitor vehicula, odio mauris interdum neque, 
+              vel mollis turpis lorem sit amet enim.
+              <!-- Replace with full modal content -->
+            </p>
+          </div>
+        </div>
+        <div class="svc-modal__backdrop"></div>
+      </div>
+
+      <!-- Modal 6 -->
+      <div class="svc-modal" id="modal-6" role="dialog" aria-modal="true" aria-label="Card 6 details" hidden>
+        <div class="svc-modal__panel svc-modal__panel--right">
+          <button class="svc-modal__close" aria-label="Close">&times;</button>
+          <div class="svc-modal__img">
+            <img src="assets/image/svc-6.PNG" alt="" />
+          </div>
+          <div class="svc-modal__body">
+            <h3>Let's Work Together</h3><!-- Replace title -->
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Etiam dolor ex, sodales vitae rhoncus sollicitudin, 
+              ullamcorper nec tellus. Cras sit amet orci placerat nisl luctus laoreet ac ut ligula. 
+              Proin nec lorem ante. Integer vitae viverra orci. 
+              Integer quis erat vitae turpis rutrum commodo nec dapibus sem. 
+              Cras maximus tincidunt nisl, ut sodales urna porttitor a. 
+              Sed aliquet augue eget auctor dapibus. Praesent porta ante in velit porttitor tempor. 
+              Etiam interdum ultricies ex ut porta. Ut ac blandit lectus. 
+              Integer sagittis ut lorem sed sodales. 
+              Proin vestibulum massa sit amet turpis finibus rhoncus. Nulla facilisi. 
+              Sed rhoncus, justo sit amet porttitor vehicula, odio mauris interdum neque, 
+              vel mollis turpis lorem sit amet enim.
+              <!-- Replace with full modal content -->
+            </p>
+          </div>
+        </div>
+        <div class="svc-modal__backdrop"></div>
+      </div>
+
+      <!-- Section: Methods -->
+      <section class="section section-tight" id="methods">
+        <div class="container">
+          <div class="section-title section-title-small">
+            <h2>LOREM IPSUM</h2>
+            <p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="box-grid">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section: Gallery -->
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-title">
+            <h2>LOREM IPSUM</h2>
+            <div class="title-underline"></div>
+          </div>
+          <div class="big-box" role="img" aria-label="Feature placeholder"></div>
+        </div>
+      </section>
+
+      <!-- Section: About -->
+      <section class="section" id="about">
+        <div class="container two-col">
+          <div>
+            <h3 class="left-heading">LOREM IPSUM</h3>
+            <p class="muted">Lorem Ipsum dolor sit, amet, consectetur adipisicing elit. Quisque molestie enim ligula</p>
+          </div>
+          <div class="right-lines">
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+            <p>Lorem Ipsum dolor sit, amet, consectetur adipisicing elit</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer" id="contact">
+        <div class="container footer-grid">
+          <div class="footer-col">
+            <a class="brand footer-brand" href="#top">
+              <span class="brand-mark" aria-hidden="true"></span>
+              <span class="brand-name">ebSixOne</span>
+            </a>
+            <p class="footer-muted">Lorem Ipsum dolor sit, amet, consectetur adipiscing elit. Quisque molestie enim ligula.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <div class="footer-links">
+              <a href="#home">Home</a>
+              <a href="#services">Services</a>
+              <a href="#methods">Methods</a>
+              <a href="#gallery">Gallery</a>
+              <a href="#faq">FAQ</a>
+              <a href="#contact">Contact</a>
+              <a href="#booklet">Booklet</a>
+              <a href="#privacy">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <div class="footer-contact">
+              <div><div class="label">Email</div><div class="value">sample@business.com</div></div>
+              <div><div class="label">Phone</div><div class="value">1234567890</div></div>
+              <div><div class="label">Location</div><div class="value">Philippines</div></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">© 2026 Business Consulting. All rights reserved.</div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
